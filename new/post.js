@@ -15,7 +15,7 @@
 //         <h3>${post.title}</h3>
 //         <p>${post.body}</p>
 //         `;
-//         postContiner.appendChild('div');
+//         postContiner.appendChild(div);
 //         console.log(post);
 //     }
 // }
@@ -40,4 +40,7 @@ function displayPosts(posts) {
         postContainer.appendChild(div);
         console.log(post)
     }
+}
+function displayPart() {
+
 }
